@@ -23,7 +23,9 @@ Otherwise follow [Homebrew guide](https://brew.sh/)
 
 Make sure you have brew installed in your machine. For that type in your terminal
 
-    `gradle -v`
+```bash
+gradle -v
+```
 
 Otherwise
 
@@ -41,20 +43,24 @@ git clone https://github.com/liferay/liferay-portal
 
 Once there go inside the created folder
 
-`cd liferay-porta`l
+```bash
+cd liferay-portal
+```
 
 Then you need to create a database:
 
 _Note: you need to [install mysql](https://dev.mysql.com/doc/refman/5.6/en/osx-installation-pkg.html) first if you haven’t before _
 
-`echo "create database lportal" | mysql -u roo`t
+```bash
+echo "create database lportal" | mysql -u root
+```
 
 ## Running Portal
 
 Just type
 
 ```bash
-	../bundles/tomcat-9.0.17/bin/catalina.sh run
+../bundles/tomcat-9.0.17/bin/catalina.sh run
 ```
 
 ## Update Portal
